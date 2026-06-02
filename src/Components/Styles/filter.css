@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+    outline:none;
+    border:none;
+    text-decoration: none;
+}
+.body{
+    background-color:#fff;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.filterCont{
+    margin-top:70px;
+    /* margin-top:30px; */
+    margin-bottom:30px;
+    height:100vh;
+    width:100%;
+}
+.bx{
+    padding-right:10px;
+}
+.filterCont .rw{
+    display:flex;
+    gap:1rem;
+}
+
+.filterCont .filter{
+    /* width:30%; */
+    background-color:#fff;
+    /* border:2px solid black; */
+    /* margin:10px; */
+    /* height:750px; */
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    margin-bottom:10px;
+}
+.filterCont .filter h2{
+    font-size: 1.9rem;
+    margin-top: 15px;
+    margin-left: 13px;
+}
+.filter .select h3 {
+    font-size: 1.1rem;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.filter .chbx {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.filter .chbx h3 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 19px;
+    margin-top: 13px;
+}
+.filter .chbx .check {
+    margin-left: 15px;
+    font-size: 1.1rem;
+    font-weight: 550;
+    margin-bottom: 12px;
+}
+.filter .chbx .check input {
+    margin-bottom: 13px;
+    margin-right: 10px;
+}
+.filter .cost {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.filter .cost h3 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 19px;
+    margin-top: 13px;
+}
+
+.filter .cost .rdo {
+    margin-left: 15px;
+    font-size: 1.1rem;
+    font-weight: 550;
+    margin-bottom: 12px;
+}
+
+.filter .cost .rdo input {
+    margin-bottom: 13px;
+    margin-right: 15px;
+}
+.filter .cost1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.filter .cost1 h3 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 19px;
+    margin-top: 13px;
+}
+
+.filter .cost1 .rdo {
+    margin-left: 15px;
+    font-size: 1.1rem;
+    font-weight: 550;
+    margin-bottom: 12px;
+}
+
+.filter .cost1 .rdo input {
+    margin-bottom: 13px;
+    margin-right: 15px;
+}
+
+.filter-reset-btn {
+    display: block;
+    width: calc(100% - 20px);
+    margin: 20px 10px 24px;
+    padding: 10px 16px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+.filterCont .filter .content{
+    margin-left:10px;
+}
+
+
+
+.filterCont .result .card1 {
+    width: 96%;
+    /* height: 300px; */
+    background-color: #fff;
+    display: flex;
+    padding-top:10px;
+    flex-direction: column;
+    margin-bottom: 10px;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    border-radius:5px;
+}
+.result .card1 .upper {
+    /* height: 55%; */
+    width: 100%;
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:10px;
+}
+.result .card1 .upper img {
+    width: 146px;
+    height: 124px;
+    margin:15px;
+    margin-right:10px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.result .card1 .upper .content h1 {
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.result .card1 .upper .content h4 {
+    font-size: .9rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.result .card1 .upper .content p {
+    font-size: 1rem;
+}
+.result .card1 .lower {
+    /* height: 50%; */
+    width: 100%;
+}
+.result .card1 .lower .content {
+    padding:20px;
+}
+.result .card1 .lower .content p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size:1rem;
+    font-weight: 400;
+}
+.result .card1 .lower .content p span {
+    font-weight: bold;
+    margin-left: 26px;
+}
+
+.result .card2 {
+    width: 98%;
+    height: 50px;
+    background-color: #fff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.result .card2 button{
+    border:1px solid black;
+    font-size: 1.1rem;
+    padding: 3px 8px;
+    background-color: #fff;
+    border: 1px solid #000;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #000;
+    font-weight: bolder;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.result .card2 .number:hover {
+    background-color:rgb(2, 2, 28);
+    color:#fff;
+}
+
+
+
